@@ -5,8 +5,6 @@ const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
   const searchValue = useRef("");
 
-  console.log(searchValue);
-
   useEffect(() => {
     searchValue.current.focus();
   }, []);
@@ -37,3 +35,5 @@ const SearchForm = () => {
 };
 
 export default SearchForm;
+
+// 13
